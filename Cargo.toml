@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["nyakiomaina <carolinenyakio21@gmail.com>"]
 edition = "2021"
 build = "build.rs"
-definition = "Budget your income"
+description = "Budget your income"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
