@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["nyakiomaina <carolinenyakio21@gmail.com>"]
 edition = "2021"
 build = "build.rs"
+definition = "Budget your income"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,3 +13,8 @@ slint = "1.4"
 
 [build-dependencies]
 slint-build = "1.4"
+
+[package.metadata.bundle]
+name = "budgeter"
+indentifier = "io.github.nyakiomaina.income-tracker"
+
